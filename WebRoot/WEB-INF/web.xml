@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<description>c3p0</description>
+  	<servlet-name>init</servlet-name>
+  	<servlet-class>xd.simu.init.DataInit</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkServlet</servlet-name>
+    <servlet-class>xd.simu.servlet.checkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listTask</servlet-name>
+    <servlet-class>xd.simu.servlet.listTask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listResult</servlet-name>
+    <servlet-class>xd.simu.servlet.listResult</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listTaskUnfin</servlet-name>
+    <servlet-class>xd.simu.servlet.listTaskUnfin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stu_TaskHistory</servlet-name>
+    <servlet-class>stu_TaskHistory</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listTaskHis</servlet-name>
+    <servlet-class>xd.simu.servlet.listTaskHis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchTask</servlet-name>
+    <servlet-class>xd.simu.servlet.searchTask</servlet-class>
+  </servlet>
+  <!-- 侯伟波 -->
+<servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>Student</servlet-name>
+  <servlet-class>xd.simu.servlet.Student</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>StudentServlet</servlet-name>
+  <servlet-class>xd.simu.servlet.StudentServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>addStudent</servlet-name>
+  <servlet-class>xd.simu.servlet.addStudent</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>updateStudent</servlet-name>
+  <servlet-class>xd.simu.servlet.updateStudent</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>deleteStudent</servlet-name>
+  <servlet-class>xd.simu.servlet.deleteStudent</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>listStudent</servlet-name>
+  <servlet-class>xd.simu.servlet.listStudent</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>addClass</servlet-name>
+  <servlet-class>xd.simu.servlet.addClass</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>editClass</servlet-name>
+  <servlet-class>xd.simu.servlet.editClass</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>deleteClass</servlet-name>
+  <servlet-class>xd.simu.servlet.deleteClass</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>listClass</servlet-name>
+  <servlet-class>xd.simu.servlet.listClass</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serchClass</servlet-name>
+    <servlet-class>xd.simu.servlet.serchClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listMajor</servlet-name>
+    <servlet-class>xd.simu.servlet.listMajor</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchStudent</servlet-name>
+    <servlet-class>xd.simu.servlet.searchStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listTeacher</servlet-name>
+    <servlet-class>xd.simu.servlet.listTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listLine</servlet-name>
+    <servlet-class>xd.simu.servlet.listLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editTeacher</servlet-name>
+    <servlet-class>xd.simu.servlet.editTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteTeacherTable</servlet-name>
+    <servlet-class>xd.simu.servlet.deleteTeacherTable</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addTeacher</servlet-name>
+    <servlet-class>xd.simu.servlet.addTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchTeacher</servlet-name>
+    <servlet-class>xd.simu.servlet.searchTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCourse</servlet-name>
+    <servlet-class>xd.simu.servlet.addCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteCourse</servlet-name>
+    <servlet-class>xd.simu.servlet.deleteCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editCourse</servlet-name>
+    <servlet-class>xd.simu.servlet.editCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listCourse</servlet-name>
+    <servlet-class>xd.simu.servlet.listCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serchCourse</servlet-name>
+    <servlet-class>xd.simu.servlet.serchCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listDevice</servlet-name>
+    <servlet-class>xd.simu.servlet.listDevice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchDevice</servlet-name>
+    <servlet-class>xd.simu.servlet.searchDevice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listDeviceInfo</servlet-name>
+    <servlet-class>xd.simu.servlet.listDeviceInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addDevice</servlet-name>
+    <servlet-class>xd.simu.servlet.addDevice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listModuel</servlet-name>
+    <servlet-class>xd.simu.servlet.listModuel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SlotRelevantMapper</servlet-name>
+    <servlet-class>xd.simu.irowmapper.SlotRelevantMapper</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listPort</servlet-name>
+    <servlet-class>xd.simu.servlet.listPort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchPort</servlet-name>
+    <servlet-class>xd.simu.servlet.searchPort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchPort1</servlet-name>
+    <servlet-class>xd.simu.servlet.searchPort1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editPort</servlet-name>
+    <servlet-class>xd.simu.servlet.editPort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deletePort</servlet-name>
+    <servlet-class>xd.simu.servlet.deletePort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addPort</servlet-name>
+    <servlet-class>xd.simu.servlet.addPort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listModule</servlet-name>
+    <servlet-class>xd.simu.servlet.listModule</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchModule</servlet-name>
+    <servlet-class>xd.simu.servlet.searchModule</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editDevice</servlet-name>
+    <servlet-class>xd.simu.servlet.editDevice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchResult</servlet-name>
+    <servlet-class>xd.simu.servlet.searchResult</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addTask</servlet-name>
+    <servlet-class>xd.simu.servlet.addTask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteTask</servlet-name>
+    <servlet-class>xd.simu.servlet.deleteTask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAllDevice</servlet-name>
+    <servlet-class>xd.simu.servlet.getAllDevice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getCourseOfTeach</servlet-name>
+    <servlet-class>xd.simu.servlet.getCourseOfTeach</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editTask</servlet-name>
+    <servlet-class>xd.simu.servlet.editTask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listDevices</servlet-name>
+    <servlet-class>xd.simu.servlet.listDevices</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addDevicesToTask</servlet-name>
+    <servlet-class>xd.simu.servlet.addDevicesToTask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkConnectivity</servlet-name>
+    <servlet-class>xd.simu.servlet.checkConnectivity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getSearchBoard</servlet-name>
+    <servlet-class>xd.simu.servlet.getSearchBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAllBoard</servlet-name>
+    <servlet-class>xd.simu.servlet.getAllBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConnectorToInter</servlet-name>
+    <servlet-class>xd.simu.servlet.ConnectorToInter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>saveTaskServlet</servlet-name>
+    <servlet-class>xd.simu.servlet.saveTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getColour</servlet-name>
+    <servlet-class>xd.simu.servlet.getColour</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getTaskServlet</servlet-name>
+    <servlet-class>xd.simu.servlet.getTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editLine</servlet-name>
+    <servlet-class>xd.simu.servlet.editLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addLine</servlet-name>
+    <servlet-class>xd.simu.servlet.addLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteLine</servlet-name>
+    <servlet-class>xd.simu.servlet.deleteLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchLine</servlet-name>
+    <servlet-class>xd.simu.servlet.searchLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listRelevantLogicClass</servlet-name>
+    <servlet-class>xd.simu.servlet.listRelevantLogicClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listLogClass</servlet-name>
+    <servlet-class>xd.simu.servlet.listLogClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addBoard</servlet-name>
+    <servlet-class>xd.simu.servlet.addBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteBoard</servlet-name>
+    <servlet-class>xd.simu.servlet.deleteBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editBoard</servlet-name>
+    <servlet-class>xd.simu.servlet.editBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listBoard</servlet-name>
+    <servlet-class>xd.simu.servlet.listBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchBoard</servlet-name>
+    <servlet-class>xd.simu.servlet.searchBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listBoardInfo</servlet-name>
+    <servlet-class>xd.simu.servlet.listBoardInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatePassword</servlet-name>
+    <servlet-class>xd.simu.servlet.updatePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpLoadify</servlet-name>
+    <servlet-class>xd.simu.servlet.UpLoadify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteDevice</servlet-name>
+    <servlet-class>xd.simu.servlet.deleteDevice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getTeachAndCla</servlet-name>
+    <servlet-class>xd.simu.servlet.getTeachAndCla</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteLogicClass</servlet-name>
+    <servlet-class>xd.simu.servlet.deleteLogicClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editLogClass</servlet-name>
+    <servlet-class>xd.simu.servlet.editLogClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>saveWeight</servlet-name>
+    <servlet-class>xd.simu.servlet.saveWeight</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateGrade</servlet-name>
+    <servlet-class>xd.simu.servlet.updateGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listTaskDefine</servlet-name>
+    <servlet-class>xd.simu.servlet.listTaskDefine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showGradeGraph</servlet-name>
+    <servlet-class>xd.simu.servlet.showGradeGraph</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>liststu_Class</servlet-name>
+    <servlet-class>xd.simu.servlet.liststu_Class</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editStudent</servlet-name>
+    <servlet-class>xd.simu.servlet.editStudent</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>checkServlet</servlet-name>
+    <url-pattern>/servlet/checkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listTask</servlet-name>
+    <url-pattern>/servlet/listTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listResult</servlet-name>
+    <url-pattern>/servlet/listResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listTaskUnfin</servlet-name>
+    <url-pattern>/servlet/listTaskUnfin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stu_TaskHistory</servlet-name>
+    <url-pattern>/servlet/stu_TaskHistory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listTaskHis</servlet-name>
+    <url-pattern>/servlet/listTaskHis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listLine</servlet-name>
+    <url-pattern>/servlet/listLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchTask</servlet-name>
+    <url-pattern>/servlet/searchTask</url-pattern>
+  </servlet-mapping>
+  <!-- 侯伟波 -->
+  <servlet-mapping>
+  <servlet-name>Student</servlet-name>
+  <url-pattern>/servlet/Student</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>StudentServlet</servlet-name>
+  <url-pattern>/servlet/StudentServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>addStudent</servlet-name>
+  <url-pattern>/servlet/addStudent</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>updateStudent</servlet-name>
+  <url-pattern>/servlet/updateStudent</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>deleteStudent</servlet-name>
+  <url-pattern>/servlet/deleteStudent</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>listStudent</servlet-name>
+  <url-pattern>/servlet/listStudent</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>addClass</servlet-name>
+  <url-pattern>/servlet/addClass</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>editClass</servlet-name>
+  <url-pattern>/servlet/editClass</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>deleteClass</servlet-name>
+  <url-pattern>/servlet/deleteClass</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>listClass</servlet-name>
+  <url-pattern>/servlet/listClass</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serchClass</servlet-name>
+    <url-pattern>/servlet/serchClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listMajor</servlet-name>
+    <url-pattern>/servlet/listMajor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchStudent</servlet-name>
+    <url-pattern>/servlet/searchStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listTeacher</servlet-name>
+    <url-pattern>/servlet/listTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editTeacher</servlet-name>
+    <url-pattern>/servlet/editTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteTeacherTable</servlet-name>
+    <url-pattern>/servlet/deleteTeacherTable</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addTeacher</servlet-name>
+    <url-pattern>/servlet/addTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchTeacher</servlet-name>
+    <url-pattern>/servlet/searchTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCourse</servlet-name>
+    <url-pattern>/servlet/addCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteCourse</servlet-name>
+    <url-pattern>/servlet/deleteCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editCourse</servlet-name>
+    <url-pattern>/servlet/editCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listCourse</servlet-name>
+    <url-pattern>/servlet/listCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serchCourse</servlet-name>
+    <url-pattern>/servlet/serchCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listDevice</servlet-name>
+    <url-pattern>/servlet/listDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchDevice</servlet-name>
+    <url-pattern>/servlet/searchDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listDeviceInfo</servlet-name>
+    <url-pattern>/servlet/listDeviceInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addDevice</servlet-name>
+    <url-pattern>/servlet/addDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listModuel</servlet-name>
+    <url-pattern>/servlet/listModuel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SlotRelevantMapper</servlet-name>
+    <url-pattern>/servlet/SlotRelevantMapper</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listPort</servlet-name>
+    <url-pattern>/servlet/listPort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchPort</servlet-name>
+    <url-pattern>/servlet/lsearchPort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchPort1</servlet-name>
+    <url-pattern>/servlet/searchPort1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editPort</servlet-name>
+    <url-pattern>/servlet/editPort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletePort</servlet-name>
+    <url-pattern>/servlet/deletePort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addPort</servlet-name>
+    <url-pattern>/servlet/addPort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listModule</servlet-name>
+    <url-pattern>/servlet/listModule</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchModule</servlet-name>
+    <url-pattern>/servlet/searchModule</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editDevice</servlet-name>
+    <url-pattern>/servlet/editDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchResult</servlet-name>
+    <url-pattern>/servlet/searchResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addTask</servlet-name>
+    <url-pattern>/servlet/addTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteTask</servlet-name>
+    <url-pattern>/servlet/deleteTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAllDevice</servlet-name>
+    <url-pattern>/servlet/getAllDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCourseOfTeach</servlet-name>
+    <url-pattern>/servlet/getCourseOfTeach</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editTask</servlet-name>
+    <url-pattern>/servlet/editTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listDevices</servlet-name>
+    <url-pattern>/servlet/listDevices</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addDevicesToTask</servlet-name>
+    <url-pattern>/servlet/addDevicesToTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkConnectivity</servlet-name>
+    <url-pattern>/servlet/checkConnectivity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getSearchBoard</servlet-name>
+    <url-pattern>/servlet/getSearchBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAllBoard</servlet-name>
+    <url-pattern>/servlet/getAllBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConnectorToInter</servlet-name>
+    <url-pattern>/servlet/ConnectorToInter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>saveTaskServlet</servlet-name>
+    <url-pattern>/servlet/saveTaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getColour</servlet-name>
+    <url-pattern>/servlet/getColour</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getTaskServlet</servlet-name>
+    <url-pattern>/servlet/getTaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editLine</servlet-name>
+    <url-pattern>/servlet/editLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addLine</servlet-name>
+    <url-pattern>/servlet/addLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteLine</servlet-name>
+    <url-pattern>/servlet/deleteLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchLine</servlet-name>
+    <url-pattern>/servlet/searchLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listRelevantLogicClass</servlet-name>
+    <url-pattern>/servlet/listRelevantLogicClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listLogClass</servlet-name>
+    <url-pattern>/servlet/listLogClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addBoard</servlet-name>
+    <url-pattern>/servlet/addBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteBoard</servlet-name>
+    <url-pattern>/servlet/deleteBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editBoard</servlet-name>
+    <url-pattern>/servlet/editBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listBoard</servlet-name>
+    <url-pattern>/servlet/listBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchBoard</servlet-name>
+    <url-pattern>/servlet/searchBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listBoardInfo</servlet-name>
+    <url-pattern>/servlet/listBoardInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatePassword</servlet-name>
+    <url-pattern>/servlet/updatePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadify</servlet-name>
+    <url-pattern>/servlet/UpLoadify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteDevice</servlet-name>
+    <url-pattern>/servlet/deleteDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getTeachAndCla</servlet-name>
+    <url-pattern>/servlet/getTeachAndCla</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteLogicClass</servlet-name>
+    <url-pattern>/servlet/deleteLogicClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editLogClass</servlet-name>
+    <url-pattern>/servlet/editLogClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>saveWeight</servlet-name>
+    <url-pattern>/servlet/saveWeight</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateGrade</servlet-name>
+    <url-pattern>/servlet/updateGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listTaskDefine</servlet-name>
+    <url-pattern>/servlet/listTaskDefine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showGradeGraph</servlet-name>
+    <url-pattern>/servlet/showGradeGraph</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>liststu_Class</servlet-name>
+    <url-pattern>/servlet/liststu_Class</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editStudent</servlet-name>
+    <url-pattern>/servlet/editStudent</url-pattern>
+  </servlet-mapping>
+</web-app>
